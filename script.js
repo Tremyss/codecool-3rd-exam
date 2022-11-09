@@ -3,8 +3,8 @@ const searchInput = document.querySelector("#searchBar");
 searchInput.addEventListener("input", (e) => {
     const value = e.target.value.toLowerCase();
     console.log(value);
-    users.map((user) => {
-        const isVisible = user.login.includes(value);
+    users.forEach((user) => {
+        const isVisible = user.login.toLowerCase().includes(value);
         user.element.classList.toggle("hide", !isVisible);
     });
 });
