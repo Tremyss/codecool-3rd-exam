@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+.search-container {
+    width: 100%;    
+    padding: 1rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.userCard {
+    background-color: #eee;
+    width: 10rem;
+    /* height: 15rem; */
+    padding: 0.5rem;
+    /* border: 0.2rem solid rgba(17, 17, 17, 0.795); */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.userName, .userRank, .userAdmin {
+    font-weight: 600;
+}
+
