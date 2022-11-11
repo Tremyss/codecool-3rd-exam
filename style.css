@@ -40,3 +40,11 @@ body {
     font-weight: 600;
 }
 
+#infoMessage {
+    background-color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+}
+
